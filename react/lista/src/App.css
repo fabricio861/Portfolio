@@ -1,0 +1,25 @@
+body{
+background-color: black;
+display:flex;
+justify-content:center ;
+align-items: center;
+ height: 100vh; 
+}
+
+.fundo{
+  text-align: center;
+  background-color: rgb(44, 45, 54);
+  width:650px;
+  height: 600px;
+  color:white;
+  font-size: 29px;
+  
+
+}
+.in{
+ color:white;
+ margin:10px;
+}
+.in input{
+height:2vh
+}
