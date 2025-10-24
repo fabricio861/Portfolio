@@ -13,7 +13,7 @@ function App() {
         <p>Lista</p>
       </div>
       <div className="in" >
-        <input  placeholder='Digite sua tarefa'></input>
+        <input placeholder='Digite sua tarefa'></input>
         <button>Ad Tarefa</button>
       </div>
       <div>
@@ -21,7 +21,7 @@ function App() {
       </div>
 
       </div>
-
+<p>seé louco</p>
 
     </>
   )
