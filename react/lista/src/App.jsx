@@ -21,7 +21,7 @@ function App() {
       </div>
 
       </div>
-<p>seé louco</p>
+
 
     </>
   )
