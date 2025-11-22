@@ -8,12 +8,18 @@ function App() {
 
   return (
     <>
-     <div>
-     <NavBar>
-      
-     </NavBar>
+     
+      <header>
+        <nav className='stlyes.nav'>
+            <ul className='styles.nav-links'>
+                <li><a heref="index.html">Home</a></li>
+                <li><a heref="index.html">Produtos</a></li>
+                <li><a heref="index.html">Produtos</a></li>
+            </ul>
+        </nav>
+      </header>
 
-     </div>
+   
     </>
   )
 }
