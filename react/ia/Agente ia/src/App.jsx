@@ -8,7 +8,12 @@ function App() {
 
   return (
     <>
+     <div>
+     <NavBar>
+      
+     </NavBar>
 
+     </div>
     </>
   )
 }
