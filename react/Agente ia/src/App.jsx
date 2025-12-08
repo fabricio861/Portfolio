@@ -1,26 +1,26 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+
 import styles from './cafe.module.css'
 
 function App() {
 
   return (
     <>
-      <header>
+      <navbar className={styles.cnavbar}>
         <div className={styles.nav}>
-          <p>Café Aroma</p>
+          <p className={styles.logo}>Café Aroma</p>
           <ul className={styles.li}>
             <li><a href="#home">Home</a></li>
-            <li><a href="#sobre">Produtos</a></li>
+            <li><a href="#sobre">Sobre</a></li>
             <li><a href="#produtos">Produtos</a></li>
-            <li><a href="#contatos">Contatos</a></li>
+            <li><a href="#localizacao">Localizacao</a></li>
           </ul>
         </div>
-      </header>
+      </navbar>
 
-      <section id="home" className={styles.heros}>
-        <div>
+      <section id="home" className={styles.hero}>
+        <div className={styles.conthero}>
           <h1>Bem-Vindo ao Café Aroma</h1>
           <p>Descubra o sabor autêntico do café artesanal</p>
           <a href="#produtos" className={styles.btn}>Conheça nossos cafés</a>
@@ -78,11 +78,31 @@ function App() {
         </div>
       </section>
     
-      <section id="localização">
-         <div>
-
+      <section id="localizacao" className={styles.localizaçao}>
+         <div className={styles.container}>
+          <h2>Onde estamos</h2>
+          <div className={styles.contatoinfo}>
+            <p>Rua do Café, 123 - Centro,São Paulo - SP</p>
+            <p>(11) 996712-5432</p>
+            <p>contato@cafearoma.com.br</p>
+            
+          </div>
+          <div className={styles.mapa}>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470948.5353418217!2d-48.241477710937495!3d-22.754786199999973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c631ff4c35397f%3A0x1ef6f7edde4333f!2sCaf%C3%A9%20Aroma%20Piracicaba!5e0!3m2!1spt-BR!2sbr!4v1765217971449!5m2!1spt-BR!2sbr"
+              width="600"
+              height="450"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
         </div>
       </section>
+      <footer>
+        <p>2025 Café Aroma -Todos os direitos reservados</p>
+      </footer>
     </>
   )
 }
