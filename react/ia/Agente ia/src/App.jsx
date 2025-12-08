@@ -57,10 +57,10 @@ function App() {
           <h2>Nossos Produtos</h2>
           <div className={styles.produtosgrid}>
             <article className={styles.article}>
-              <div className={styles.iconcafe}>☕</div>
-              <h3>Espresso</h3>
-              <p>Café puro e intenso, preparado na pressão perfeita</p>
-              <span className={styles.preco}>R$8,00</span>
+              <div className={styles.iconcafe}>🥤</div>
+              <h3>Capucciono</h3>
+              <p>Cremoso e suave, com espuma de leite perfeita</p>
+              <span className={styles.preco}>R$12,00</span>
             </article>
           </div>
         </div>
@@ -69,12 +69,18 @@ function App() {
           <h2>Nossos Produtos</h2>
           <div className={styles.produtosgrid}>
             <article className={styles.article}>
-              <div className={styles.iconcafe}>☕</div>
+              <div className={styles.iconcafe}>🧋</div>
               <h3>Espresso</h3>
-              <p>Café puro e intenso, preparado na pressão perfeita</p>
-              <span className={styles.preco}>R$8,00</span>
+              <p>Refrescante e saboroso para os dias quentes </p>
+              <span className={styles.preco}>R$10,00</span>
             </article>
           </div>
+        </div>
+      </section>
+    
+      <section id="localização">
+         <div>
+
         </div>
       </section>
     </>
