@@ -14,7 +14,7 @@ function App() {
             <li><a href="#home">Home</a></li>
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#produtos">Produtos</a></li>
-            <li><a href="#localizacao">Localizacao</a></li>
+            <li><a href="#localizacao">Localização</a></li>
           </ul>
         </div>
       </navbar>
@@ -45,40 +45,41 @@ function App() {
           <h2>Nossos Produtos</h2>
           <div className={styles.produtosgrid}>
             <article className={styles.article}>
-              <div className={styles.iconcafe}>☕</div>
+              <div className={styles.iconp}>☕</div>
               <h3>Espresso</h3>
               <p>Café puro e intenso, preparado na pressão perfeita</p>
               <span className={styles.preco}>R$8,00</span>
             </article>
-          </div>
-        </div>
+          
+        
 
-        <div className={styles.container}>
-          <h2>Nossos Produtos</h2>
-          <div className={styles.produtosgrid}>
+   
+          
+        
             <article className={styles.article}>
-              <div className={styles.iconcafe}>🥤</div>
+              <div className={styles.iconp}>🥤</div>
               <h3>Capucciono</h3>
               <p>Cremoso e suave, com espuma de leite perfeita</p>
               <span className={styles.preco}>R$12,00</span>
             </article>
-          </div>
-        </div>
+        
+  
 
-        <div className={styles.container}>
-          <h2>Nossos Produtos</h2>
-          <div className={styles.produtosgrid}>
+      
+         
+          
             <article className={styles.article}>
-              <div className={styles.iconcafe}>🧋</div>
+              <div className={styles.iconp}>🧋</div>
               <h3>Espresso</h3>
               <p>Refrescante e saboroso para os dias quentes </p>
               <span className={styles.preco}>R$10,00</span>
             </article>
-          </div>
-        </div>
+            </div>
+         </div>
+     
       </section>
     
-      <section id="localizacao" className={styles.localizaçao}>
+      <section id="localizacao" className={styles.localizacao}>
          <div className={styles.container}>
           <h2>Onde estamos</h2>
           <div className={styles.contatoinfo}>
